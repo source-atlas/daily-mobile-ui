@@ -7,7 +7,20 @@
 .buildlog/
 .history
 
+# Ignore Flutter platform folders
+**/android/
+**/ios/
+**/linux/
+**/macos/
+**/windows/
+**/web/
 
+# Ignore build and generated files
+**/build/
+**/.dart_tool/
+**/.packages
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
 
 # Flutter repo-specific
 /bin/cache/
